@@ -15,3 +15,10 @@ Notebooks and code snippets demonstrating various machine learning techniques:
  * estimating ELBO using MC
  * training using pyTorch automatic differentiation
  * simple evaluation of RMSE on test subset 
+
+
+3. [A demonstration of Discrete Flows: Invertible Generative Models of Discrete Data](discrete_flows.ipynb)
+ * Arithmetic on one-hot encoded vectors
+ * Trainig simple discrete transformation
+ * MLE-training of an autoregressive flow with masked autoencoder to match a target distribution.
+
