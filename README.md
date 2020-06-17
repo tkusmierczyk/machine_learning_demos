@@ -22,3 +22,9 @@ Notebooks and code snippets demonstrating various machine learning techniques:
  * Trainig simple discrete transformation
  * MLE-training of an autoregressive flow with masked autoencoder to match a target distribution.
 
+4. [Variational Autoencoder using Relaxed Categorical distribution](vae_relaxed_categorical.ipynb)
+ * Sampling from Gumbel softmax with and without straight-through
+ * Implementation of different approaches to estimation of KL divergence
+ * Training with Mnist data
+ * Reconstruction of digits and unconditional sampling latent codes
+
