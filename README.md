@@ -1,4 +1,4 @@
-# Machine Learning Demos
+ # Machine Learning Demos
 
 Notebooks and code snippets demonstrating various machine learning techniques:
 1. [Framing multi-output Bayesian optimization with GPyOpt](multi-task_bayesian_optimization_demo.ipynb)
@@ -27,4 +27,11 @@ Notebooks and code snippets demonstrating various machine learning techniques:
  * Implementation of different approaches to estimation of KL divergence
  * Training with Mnist data
  * Reconstruction of digits and unconditional sampling latent codes
+
+5. [Illustration of how entropy of the relaxed categorical distribution can be estimated and utilized for VI](entropy_of_relaxed_categorical_distribution.ipynb)
+ * Comparison (and discussion of gradients) of three estimates of the entropy/KL-term in ELBO
+
+6. [Comparison of REINFORCE vs Gumbel-Softmax vs MDNF gradients and convergence for a simplified objective](reinforce_vs_gumbelsoftmax_gradients.ipynb)
+ * Optimization with GradientTape
+ * Gradient estimation
 
