@@ -2,6 +2,8 @@
 
 Notebooks and code snippets demonstrating various machine learning techniques:
 
+7. [Bias of predictive mean calculated with averages of Dropout layers](dropout_bnn_mean.ipynb)
+ * Compare predictive means calculated by averaging samples from a BNN vs output calculated for Dropout averages. 
 
 6. [Comparison of REINFORCE vs Gumbel-Softmax vs MDNF gradients and convergence for a simplified objective](reinforce_vs_gumbelsoftmax_gradients.ipynb)
  * Optimization using REINFORCE vs reparametrization gradients (with GradientTape)
