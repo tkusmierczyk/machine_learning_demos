@@ -2,6 +2,12 @@
 
 Notebooks and code snippets demonstrating various machine learning techniques:
 
+8. [PyTorch implementation of SNGP (Spectral-normalized Neural Gaussian Process) and comparison against VBLL](sngp_pytorch.ipynb)
+ * Implementation of SpectralNormalization wrapper
+ * Implementation of RandomFeatureGaussianProcess
+ * Implementation of DeepResNet SNGP
+ * Test of replacing classification head with [VBLL layers](https://github.com/VectorInstitute/vbll/)
+
 7. [Bias of predictive mean calculated with averages of Dropout layers](dropout_bnn_mean.ipynb)
  * Compare predictive means calculated by averaging samples from a BNN vs output calculated for Dropout averages. 
 
